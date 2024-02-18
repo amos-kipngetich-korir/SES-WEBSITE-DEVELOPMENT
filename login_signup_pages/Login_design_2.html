@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Login and Registration Form in HTML and CSS</title>
+    <meta
+      name="viewpoint"
+      content="width = device-width, initial-scale = 1.0"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+</html>
+<body class="bg-[url('./Background_2_M.jpg')] bg-no-repeat bg-cover">
+    <section class="justify-center mt-20 ml-60 mr-36 rounded-3xl opacity-80 blur-sm">
+      <div class="flex ">
+      <div class=" pt-10 pb-10 pl-20 pr-10 ml-32 bg-blue-200  w-4/6 rounded-3xl ">
+        <form>
+          <h1 class="text-5xl font-semibold text-center pr-7  text-gray-700">Login</h1>
+          <h3 class="text-2xl text-center text-gray-700 pr-7 mt-3">Welcome Back</h3>
+          <div class="relative mt-6">
+            <input type="email" class="peer w-11/12 h-12 pl-3 rounded-full border-b placeholder:text-transparent" placeholder="name" />
+            <label for="email" class="absolute left-0 ml-1 -translate-y-3 bg-white px-1 text-sm duration-100 ease-linear peer-placeholder-shown:translate-y-0 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:ml-1 peer-focus:-translate-y-3 peer-focus:px-2 peer-focus:text-sm">Email</label>
+          </div>          
+  
+          <div class="relative mt-6">
+            <input type="password" class="peer w-11/12 h-12 pl-3 border-b placeholder:text-transparent rounded-full" placeholder="name" />
+            <label for="password" class="absolute left-0 ml-1 px-1 -translate-y-3 bg-white text-sm duration-100 ease-linear peer-placeholder-shown:translate-y-0 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:ml-1 peer-focus:-translate-y-3 peer-focus:px-2 peer-focus:text-sm">Password</label>
+          </div>
+  
+          <div class="flex flex-row justify-between mt-5 ">
+            <div class="flex-initial ">
+            <label class="justify-center text-base text-gray-700 text-center pt-2"
+              ><input class="w-5 h-5 border-8 text-gray-700 relative " type="checkbox"/> Keep me logged in for 60 days
+            </label>
+          </div>
+            <div class="flex-inital">
+            <a class="text-right pr-12 hover:text-cyan-600 text-base text-gray-700"href="#">Forgot password?</a>
+            </div>
+          </div>
+          <button type="submit" class=" mt-5 w-11/12 h-12 rounded-s-full rounded-e-full bg-[#77E0B5] text-xl hover:bg-cyan-600 active:bg-cyan-700 focus:outline-none focus:ring focus:ring-blue-800 drop-shadow-md">Login</button>
+          <div class="flex flex-row justify-between mt-5 ">
+            <div class="flex-initial">
+            <p class="text-gray-700">Don't have an account? <a class ="hover:text-violet-800 text-gray-700" href="#">Sign Up</a></p>
+            </div>
+          </div>
+          <div class="float-right pr-12 ">
+               <button
+              class="flex space-x-3 items-center px-5 py-2 bg-[#EFEDED] hover:bg-[#77E0B5] active:bg-cyan-600 focus:outline-none focus:ring focus:ring-blue-800 hover:text-white rounded-full drop-shadow-md">
+              <img src="./Back.svg"/>
+              <span class="text-gray-700 text-xl font-regular">Back</span>
+          </button>    
+        </div> 
+        </form>
+      </div>    
+    </div>
+    </section>
+    </body>
