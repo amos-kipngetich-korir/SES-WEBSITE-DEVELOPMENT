@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Login and Registration Form in HTML and CSS</title>
+    <meta
+      name="viewpoint"
+      content="width = device-width, initial-scale = 1.0"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+</html>
+<body class="bg-[url('./images_login_signup/Bg_1.jpg')] bg-no-repeat bg-cover">
+  <section class="justify-center mt-20 mb-20   ml-60 mr-36 bg-[#3875A2] w-4/6 rounded-3xl">
+    <div class="flex flex-row gap-20 ">
+      <div class="flex-initial">
+        <img class="size-36" src="./images_login_signup/Ses_Logo.svg" />
+        <img class=" pt-16 pl-20 size-max" src="./images_login_signup/image.svg" alt="image" />
+      </div>
+    <div class="flex-initial pt-10 pb-10 pl-10 bg-white w-4/6 rounded-r-3xl ">
+      <form>
+        <h1 class="text-4xl font-semibold text-center pr-7  text-gray-700">Sign Up</h1>
+        <h3 class="text-xl text-center text-gray-700 pr-7 mt-3">Enter Your Details To Create An Account</h3>
+        
+        <div class="relative mt-6">
+          <input type="firstName" class="peer w-96 h-12 px-3 border-b placeholder:text-transparent rounded-full" placeholder="name" />
+          <label for="firstName" class="absolute left-0 ml-1 px-1 -translate-y-3 bg-white text-sm duration-100 ease-linear peer-placeholder-shown:translate-y-0 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:ml-1 peer-focus:-translate-y-3 peer-focus:px-2 peer-focus:text-sm">First Name</label>
+        </div>
+          
+        <div class="relative mt-6">
+          <input type="surname" class="peer w-96 h-12 px-3 border-b placeholder:text-transparent rounded-full" placeholder="name" />
+          <label for="surname" class="absolute left-0 ml-1 px-1 -translate-y-3 bg-white text-sm duration-100 ease-linear peer-placeholder-shown:translate-y-0 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:ml-1 peer-focus:-translate-y-3 peer-focus:px-2 peer-focus:text-sm">Surname</label>
+        </div>
+
+        <div class="relative mt-6">
+            <input type="course" class="peer w-96 h-12 px-3 border-b placeholder:text-transparent rounded-full" placeholder="name" />
+            <label for="course" class="absolute left-0 ml-1 px-1 -translate-y-3 bg-white text-sm duration-100 ease-linear peer-placeholder-shown:translate-y-0 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:ml-1 peer-focus:-translate-y-3 peer-focus:px-2 peer-focus:text-sm">Course</label>
+        </div>
+
+        <div class="relative mt-6">
+            <input type="email" class="peer w-96 h-12 px-3 border-b placeholder:text-transparent rounded-full" placeholder="name" />
+            <label for="email" class="absolute left-0 ml-1 px-1 -translate-y-3 bg-white text-sm duration-100 ease-linear peer-placeholder-shown:translate-y-0 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:ml-1 peer-focus:-translate-y-3 peer-focus:px-2 peer-focus:text-sm"><Em></Em>Email</label>
+        </div>
+        <div class="relative mt-6">
+            <input type="password" class="peer w-96 h-12 px-3 border-b placeholder:text-transparent rounded-full" placeholder="name" />
+            <label for="password" class="absolute left-0 ml-1 px-1 -translate-y-3 bg-white text-sm duration-100 ease-linear peer-placeholder-shown:translate-y-0 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:ml-1 peer-focus:-translate-y-3 peer-focus:px-2 peer-focus:text-sm">Password</label>
+        </div>
+        <button type="submit" class=" mt-5 w-96 h-12 rounded-s-full rounded-e-full bg-[#77E0B5] text-xl hover:bg-cyan-600 active:bg-cyan-700 focus:outline-none focus:ring focus:ring-blue-800 drop-shadow-md">Sign Up</button>
+        <div class="flex flex-row justify-between mt-5 ">
+          <div class="flex-initial">
+          <p class="text-gray-700">Already have an account? <a class ="hover:text-violet-800 text-gray-700" href="#">Log in</a></p>
+          </div>
+        </div>
+        <div class="float-right pr-12 ">
+             <button
+            class="flex space-x-3 items-center px-5 py-1.5 bg-[#EFEDED] hover:bg-[#77E0B5] active:bg-cyan-600 focus:outline-none focus:ring focus:ring-blue-800 hover:text-white rounded-full drop-shadow-md">
+            <img src="./images_login_signup/Back.svg"/>
+            <span class="text-gray-700 text-xl font-regular">Back</span>
+        </button> 
+      </div> 
+      </form>
+    </div>    
+  </div>
+  </section>
+  </body>
